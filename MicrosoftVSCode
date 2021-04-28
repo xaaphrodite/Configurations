@@ -11,13 +11,28 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.colorTheme": "Tokyo Night",
   "prettier.printWidth": 240,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "editor.fontSize": 15,
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "workbench.iconTheme": "material-icon-theme",
   "bracketPairColorizer.consecutivePairColors": [
@@ -34,9 +49,6 @@
   ],
   "bracketPairColorizer.excludedLanguages": [],
   "editor.fontFamily": "Source Code Pro, Consolas, Courier New, monospace",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "editor.rulers": [130],
 
   "java.configuration.runtimes": [
@@ -46,26 +58,14 @@
       "default": true
     }
   ],
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "workbench.editorAssociations": [
     {
       "viewType": "jupyter.notebook.ipynb",
       "filenamePattern": "*.ipynb"
     }
   ],
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "window.zoomLevel": -1,
   "editor.tabSize": 2,
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "editor.cursorBlinking": "expand",
   "terminal.integrated.cursorStyle": "line",
   "workbench.colorCustomizations": {

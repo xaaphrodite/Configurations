@@ -1,0 +1,19 @@
+//__VUE_OPTIONS_API__ (enable/disable Options API support, default: true)
+//__VUE_PROD_DEVTOOLS__ (enable/disable devtools support in production, default: false)
+
+//DefinePlugin to set these flags
+
+<!-- Code -->
+
+const webpack = require('webpack')
+
+mix.webpackConfig ({
+  plugins: [
+    new webpack.DefinePlugin({
+      __VUE_OPTIONS_API__: true,
+      __VUE_PROD_DEVTOOLS__: false,
+    }),
+  ],
+});
+
+<!-- EndCode -->

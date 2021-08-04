@@ -58,18 +58,18 @@
       "default": true
     }
   ],
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
-  "window.zoomLevel": -1,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
   "editor.tabSize": 2,
   "editor.cursorBlinking": "expand",
   "terminal.integrated.cursorStyle": "line",
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#43FFFF",
     "terminalCursor.foreground": "#43FFFF"
+  },
+  "window.zoomLevel": -1,
+  "[handlebars]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

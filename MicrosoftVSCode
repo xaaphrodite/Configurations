@@ -71,5 +71,6 @@
   "window.zoomLevel": -1,
   "[handlebars]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "code-runner.runInTerminal": true
 }
